@@ -11,8 +11,13 @@ export class TransactionService {
   #transactions = signal<Transaction[]>([]);
 
   e = effect(() => {
-    this.getAll().subscribe({ next: (resp) => this.#transactions.set(resp) });
-    this.correctSignum();
+    this.getAll().subscribe({
+      next: (resp) => {
+        let transactions = resp;
+
+        this.#transactions.set(resp);
+      },
+    });
   });
 
   getAll() {
@@ -26,6 +31,7 @@ export class TransactionService {
           console.log(c);
           return { ...c, amount: c.amount * -1 };
         } else {
+          console.log(c);
           return c;
         }
       });
