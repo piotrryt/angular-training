@@ -8,16 +8,7 @@ export const routes: Routes = [
     component: MainComponent,
     loadChildren: () => import("./features/main.routes").then((m) => m.routes),
   },
-  // {
-  //   path: "overview",
-  //   component: Overview,
-  //   // loadComponent: () =>
-  //   //   import("./features/overview/overview").then((m) => m.Overview),
-  // },
-  //   {
-  //     path: "",
-  //     redirectTo: "overview",
-  //   },
+
   {
     path: "**",
     redirectTo: "",
