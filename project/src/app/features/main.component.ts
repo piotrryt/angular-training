@@ -16,6 +16,7 @@ import { Overview } from "./overview/overview";
       <p><a routerLink="">Payments</a></p>
       <p><a routerLink="history">History</a></p>
       <p><a routerLink="">Wallet</a></p>
+      console.log(c);
       <p><a routerLink="">Statistics</a></p>
     </mat-drawer>
     <mat-drawer-content

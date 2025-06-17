@@ -1,0 +1,58 @@
+{
+  "transactions": [
+    {
+      "id": "a3f1b2c4-5d6e-7f81-2345-6789abcdef01",
+      "title": "Przelew od Jana Kowalskiego",
+      "date": "2023-10-01T20:45:00.000Z",
+      "category": "Transfer",
+      "amount": 4000,
+      "currency": "PLN",
+      "type": "Income"
+    },
+    {
+      "id": "b4e2c3d5-6f70-8a12-3456-7890bcdef123",
+      "title": "Bilet komunikacji miejskiej",
+      "date": "2023-09-30T22:32:00.000Z",
+      "category": "Transport",
+      "amount": 1520,
+      "currency": "PLN",
+      "type": "Expense"
+    },
+    {
+      "id": "c5d3e4f6-7a81-9b23-4567-8901cdef2345",
+      "title": "Netflix",
+      "date": "2023-09-30T23:00:00.000Z",
+      "category": "Subscriptions",
+      "amount": 799,
+      "currency": "PLN",
+      "type": "Expense"
+    },
+    {
+      "id": "d6e4f5a7-8b92-0c34-5678-9012def34567",
+      "title": "Rachunek za prąd",
+      "date": "2023-09-28T12:00:00.000Z",
+      "category": "Bills",
+      "amount": 12345,
+      "currency": "PLN",
+      "type": "Expense"
+    },
+    {
+      "id": "e7f5a6b8-9c03-1d45-6789-0123ef456789",
+      "title": "Zwrot za bilety kinowe",
+      "date": "2023-10-02T15:30:00.000Z",
+      "category": "Media",
+      "amount": 7500,
+      "currency": "PLN",
+      "type": "Income"
+    },
+        {
+      "id": "f8a7b9c0-1d23-4e56-7890-1234abcd5678",
+      "title": "Przelew na rachunek oszczędnościowy",
+      "date": "2023-10-03T10:15:00.000Z",
+      "category": "Transfer",
+      "amount": 25000,
+      "currency": "PLN",
+      "type": "Expense"
+    }
+  ]
+}
