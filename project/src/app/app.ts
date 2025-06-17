@@ -1,16 +1,10 @@
 import { Component, signal } from "@angular/core";
 import { MatIconModule } from "@angular/material/icon";
+import { RouterOutlet } from "@angular/router";
 
 @Component({
   selector: "app-root",
-  imports: [MatIconModule],
-  template: `
-    <h1 class="text-3xl font-bold">
-      <mat-icon fontIcon="emoji_people"></mat-icon>
-      {{ title() }}
-    </h1>
-  `,
+  imports: [RouterOutlet],
+  template: `<router-outlet />`,
 })
-export class App {
-  title = signal("Overview");
-}
+export class App {}
